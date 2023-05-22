@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://xe8jhvflh2qb"]
+[gd_scene load_steps=3 format=3 uid="uid://cujrg271nn2u2"]
 
-[ext_resource type="Script" path="res://buttons_connected_via_code/menu.gd" id="1_8vbpu"]
-[ext_resource type="Texture2D" uid="uid://crywqn7ft0y0u" path="res://icon.svg" id="2_tcr51"]
+[ext_resource type="Script" path="res://exemplos/buttons_connected_via_code/menu.gd" id="1_nkh5r"]
+[ext_resource type="Texture2D" uid="uid://crywqn7ft0y0u" path="res://icon.svg" id="2_vq8rb"]
 
 [node name="menu" type="Control"]
 layout_mode = 3
@@ -10,7 +10,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_8vbpu")
+script = ExtResource("1_nkh5r")
 
 [node name="button_1" type="Button" parent="." groups=["buttons"]]
 layout_mode = 2
@@ -27,4 +27,4 @@ offset_top = 33.0
 offset_right = 166.0
 offset_bottom = 161.0
 scale = Vector2(0.5, 0.5)
-texture_normal = ExtResource("2_tcr51")
+texture_normal = ExtResource("2_vq8rb")

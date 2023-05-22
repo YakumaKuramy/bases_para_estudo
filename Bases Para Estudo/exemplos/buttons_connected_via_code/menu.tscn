@@ -1,0 +1,39 @@
+[gd_scene load_steps=2 format=3 uid="uid://xe8jhvflh2qb"]
+
+[ext_resource type="Script" path="res://exemplos/buttons_connected_via_code/menu.gd" id="1_ogte8"]
+
+[node name="menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ogte8")
+
+[node name="hbox" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 75.0
+offset_right = 269.0
+offset_bottom = 115.0
+
+[node name="button_1" type="Button" parent="hbox" groups=["buttons"]]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="button_2" type="Button" parent="hbox" groups=["buttons"]]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="button_3" type="Button" parent="hbox" groups=["buttons"]]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="button_4" type="Button" parent="hbox" groups=["buttons"]]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="button_5" type="Button" parent="hbox" groups=["buttons"]]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
